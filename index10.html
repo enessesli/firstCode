@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="https://google.com">
+      <button
+        onclick=" tikla()"
+        style="
+          height: 50px;
+          width: 100px;
+          background-color: blueviolet;
+          color: aqua;
+          border-radius: 10px;
+        "
+      >
+        tikla
+      </button>
+    </a>
+    <p id="isil">Buton Google ye gider</p>
+    <script>
+      function tikla() {
+        Document.getElelmentById("isil").innerHTML = "butona bastiniz";
+      }
+    </script>
+  </body>
+</html>
